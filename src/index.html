@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+
+	<head>
+		<title>Productos</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="stylesheet" href="custom.css"/>
+	</head>
+	
+	<body>
+		<h1>Mantenimiento de Productos</h1>
+		<p><a href="/web_development_course/register.html">Nuevo Producto</a></p>
+		<table id="list_products">
+			<thead>
+				<tr>
+					<th>Código</th>
+					<th>Nombre</th>
+					<th>Categoría</th>
+					<th>Stock</th>
+					<th>Acciones</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>TRD-423</td>
+					<td>Lapiceros Bic</td>
+					<td>Utilitarios</td>
+					<td>534</td>
+					<td><a id="prod1" href="#" class="delete-prod">Eliminar</a></td>
+				</tr>
+				<tr class="odd">
+					<td>TRD-232</td>
+					<td>Pizarras Acrílicas</td>
+					<td>Utilitarios</td>
+					<td>74</td>
+					<td><a id="prod2" href="#" class="delete-prod">Eliminar</a></td>
+				</tr>
+				<tr>
+					<td>TDB-646</td>
+					<td>Cocina Mabe</td>
+					<td>Electrodomésticos</td>
+					<td>84</td>
+					<td><a id="prod3" href="#" class="delete-prod">Eliminar</a></td>
+				</tr>
+				<tr class="odd">
+					<td>BGH-534</td>
+					<td>Televisor LG 42"</td>
+					<td>Electrodomésticos</td>
+					<td>22</td>
+					<td><a id="prod4" href="#" class="delete-prod">Eliminar</a></td>
+				</tr>
+				<tr>
+					<td>QEE-345</td>
+					<td>Pedigree Bolsa 3 Kg.</td>
+					<td>Comida para Perros</td>
+					<td>527</td>
+					<td><a id="prod5" href="#" class="delete-prod">Eliminar</a></td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<p><a id="link_discard_deleted" href="#" class="discard_deleted">Deshacer cambios</a></p>
+		<script type="text/javascript" src="custom.js"></script>
+	</body>
+
+</html>

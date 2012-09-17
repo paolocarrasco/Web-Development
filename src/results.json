@@ -1,0 +1,39 @@
+{
+	"products": [
+		{
+			"code": "TRD-423",
+			"name": "Lapiceros Bic",
+			"category": "Utilitarios",
+			"stock": "534",
+			"delete_link": "<a id=\"prod1\" href=\"#\" class=\"delete-prod\">Eliminar</a>"
+		},
+		{
+			"code": "TRD-232",
+			"name": "Pizarras Acrílicas",
+			"category": "Utilitarios",
+			"stock": "74",
+			"delete_link": "<a id=\"prod2\" href=\"#\" class=\"delete-prod\">Eliminar</a>"
+		},
+		{
+			"code": "TDB-646",
+			"name": "Cocina Mabe",
+			"category": "Electrodomésticos",
+			"stock": "84",
+			"delete_link": "<a id=\"prod3\" href=\"#\" class=\"delete-prod\">Eliminar</a>"
+		},
+		{
+			"code": "BGH-534",
+			"name": "Televisor LG 42\"",
+			"category": "Electrodomésticos",
+			"stock": "22",
+			"delete_link": "<a id=\"prod4\" href=\"#\" class=\"delete-prod\">Eliminar</a>"
+		},
+		{
+			"code": "QEE-345",
+			"name": "Pedigree Bolsa 3 Kg.",
+			"category": "Comida para Perros",
+			"stock": "527",
+			"delete_link": "<a id=\"prod5\" href=\"#\" class=\"delete-prod\">Eliminar</a>"
+		}
+	]
+}

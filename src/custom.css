@@ -1,0 +1,68 @@
+html 
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h1, form 
+{
+    width: 70%;
+    margin: 0 auto;
+	border:1px solid #98bf21;
+    padding: 5px;
+}
+
+h1 
+{
+    text-align: center;
+    border:1px solid #98bf21;
+	background-color:#A7C942;
+}
+
+table
+{
+	width:100%;
+	border-collapse:collapse;
+}
+
+table td, table th 
+{
+	border:1px solid #98bf21;
+	padding:3px 7px 2px 7px;
+}
+
+table th 
+{
+	font-size:1.4em;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#A7C942;
+	color:#fff;
+}
+
+table tr.odd td 
+{
+	color:#000;
+	background-color:#EAF2D3;
+}
+
+label, input, textarea, select 
+{
+    display: block;
+}
+
+label 
+{
+    width: 50%;
+    float: left;
+}
+
+input, textarea, select 
+{
+    margin-left: 51%;
+}
+
+input[type=submit]
+{
+    margin: auto;
+}

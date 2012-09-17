@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+	<head>
+		<title>Nuevo Producto</title>
+		<meta name="charset" content="utf-8" />
+		<link rel="stylesheet" href="custom.css" type="text/css" />
+	</head>
+	<body>
+		<h1>Nuevo Producto</h1>
+		
+		<form id="new_product" action="#" method="post">
+			<p>
+				<label for="product_name">Nombre:</label>
+				<input type="text" name="product_name" id="product_name"/>
+			</p>
+			<p>
+				<label for="product_code">Código:</label>
+				<input type="text" name="product_code" id="product_code"/>
+			</p>
+			<p>
+				<label for="product_category">Categoría:</label>
+				<select id="product_category" name="product_category">
+					<option value="1">Utilitarios</option>
+					<option value="2">Electrodomésticos</option>
+					<option value="3">Comidas para Perros</option>
+					<option value="4">Autos</option>
+				</select>
+			</p>
+			<p>
+				<label for="product_stock">Stock:</label>
+				<input type="text" name="product_stock" id="product_stock" size="5"/>
+			</p>
+			<p>
+				<label for="product_description">Descripción:</label>
+				<textarea id="product_description" name="product_description"></textarea>
+			</p>
+			<p>
+                <fieldset>
+                    <legend>Requerimientos adicionales</legend>
+                    <label for="product_requirements_urgent">Pronta Entrega</label>
+                    <input type="checkbox" id="product_requirements_urgent" name="product_requirements">
+                    <br>
+                    <label for="product_requirements_creditcard">Pago con Tarjeta</label>
+                    <input type="checkbox" id="product_requirements_creditcard" name="product_requirements">
+                    <br>
+                </fieldset>
+			</p>
+			<p>
+				<input type="submit" value="Guardar"/>
+				<a href="/web_development_course">Volver</a>
+			</p>
+		</form>
+	</body>
+</html>
